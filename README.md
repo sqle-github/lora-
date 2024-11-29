@@ -8,12 +8,12 @@ $$M = AB$$
 
 取 $\beta_i \in \mathbb{R} ^{1\times n}$ 为 $B$ 的第 $i$ 行，则 
 
-$$B = 
-\beta _1 \\ 
-\beta _2 \\ 
+$B = 
+\beta_1 \\ 
+\beta_2 \\ 
 \vdots \\ 
-\beta _l \\ 
-$$ 
+\beta_l \\ 
+$ 
 
 ，即
 
