@@ -7,12 +7,12 @@
 $$M = AB$$
 
 取 $\beta_i \in \mathbb{R} ^{1\times n}$ 为 $B$ 的第 $i$ 行，则 
-$$B = \begin{bmatrix} 
+$$B = \begin{matrix} 
 \beta_1 \\ 
 \beta_2 \\ 
 \vdots \\ 
 \beta_l \\ 
-\end{bmatrix}$$ ，即
+\end{matrix}$$ ，即
 
 $$M = AB = \sum_{i=1}^{l} \alpha_i\beta_i$$
 
