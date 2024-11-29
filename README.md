@@ -1,15 +1,4 @@
 # lora训练可以替代全参数训练！
-## 公式示例
- 
-这是一个行内公式的例子： $E=mc^2$ 。
- 
-这是一个行间公式的例子：
-$$
-\begin{bmatrix}
-a & b \\
-c & d
-\end{bmatrix}
-$$
 
 设矩阵 $M\in \mathbb{R} ^{m\times n}$ 的秩为 $l$ ，且 $\alpha_1 ,\alpha_2, \cdots , \alpha_l$ 为一组线性无关列向量（ $\alpha_i \in \mathbb{R} ^{m\times 1}$ ）。
 
@@ -17,7 +6,7 @@ $$
 
 $$M = AB$$
 
-取 $\beta_i \in \mathbb{R} ^{1\times n}$ 为 $B$ 的第 $i$ 行，则 $$B = \beta_1 \\ \beta_2 \\ \vdots \\ \beta_l \\ $$ ，即
+取 $\beta_i \in \mathbb{R} ^{1\times n}$ 为 $B$ 的第 $i$ 行，则 $B = \begin{bmatrix} \beta_1\\ \beta_2\\ \vdots \\ \beta_l\\ \end{bmatrix}$ ，即
 
 $$M = AB = \sum_{i=1}^{l} \alpha_i\beta_i$$
 
