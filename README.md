@@ -1,5 +1,5 @@
 # lora训练可以替代全参数训练！
-
+$\begin{bmatrix}  &  & \\  &  & \\  &  &\end{bmatrix}$
 设矩阵 $M\in \mathbb{R} ^{m\times n}$ 的秩为 $l$ ，且 $\alpha_1 ,\alpha_2, \cdots , \alpha_l$ 为一组线性无关列向量（ $\alpha_i \in \mathbb{R} ^{m\times 1}$ ）。
 
 令 $A=[ \alpha_1 ,\alpha_2, \cdots , \alpha_l]\in \mathbb{R} ^{m\times l}$ ，则存在 $B\in \mathbb{R} ^{l\times n}$ ，使得
